@@ -20,3 +20,4 @@ const FeedbackSchema = new Schema({
 );
 
 module.exports = mongoose.model("Feedback",FeedbackSchema)
+// module.exports = mongoose.model("mongoose convert the as collection name in plural form(ex:feebacks) ",FeedbackSchema,"collection name");

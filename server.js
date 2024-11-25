@@ -20,3 +20,5 @@ mongoose.connect(process.env.MONGODB_URI).then(()=>{
 
 
 app.use("/api/feedbacks",taskRoute)
+// app.use("/databaseName/collectionName",taskRoute)
+//if databaseName is not there monogoose will create a database with the name of collectionName
